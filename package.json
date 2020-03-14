@@ -1,0 +1,16 @@
+{
+  "name": "Dinnertime",
+  "version": "1.0.0",
+  "description": "Spiderman",
+  "main": "bot.js",
+  "author": "Ya Boi",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "suncalc": "^1.8.0",
+    "winston": "^3.2.1"
+  }
+  
+ "scripts": {
+	"start": "node bot.js"
+ }
+}

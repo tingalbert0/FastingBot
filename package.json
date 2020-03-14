@@ -1,16 +1,13 @@
 {
   "name": "FastingBot",
-  "version": "1.0.0",
   "description": "Spiderman",
+  "version": "0.0.0",
   "main": "bot.js",
-  "author": "Ya Boi",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "suncalc": "^1.8.0",
-    "winston": "^3.2.1"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
-  
- "scripts": {
-	"start": "node bot.js"
- }
 }

@@ -41,6 +41,9 @@ client.on('message', message => {
 	    message.reply('No <:PepeHands:685227664776101912>');
 	}
     }
+    if (message.content === 'ping') {
+	    message.reply('pong');
+    }
 });
 
 client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret

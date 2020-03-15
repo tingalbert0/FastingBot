@@ -4,10 +4,11 @@ const SunCalc = require('suncalc');
 
 client.on('ready', () => {
     console.log('I am ready!');
+    var channel = client.channels.get("650183260856516611");
+    channel.send('sup bitch');
 });
 
 client.on('message', message => {
-    
     var times = SunCalc.getTimes(new Date(), 33.7940, -84.3889);
     var sunset = times.sunset.getHours() + ':' + times.sunset.getMinutes();
     var isDinnerTime = new Date().getHours() == times.sunset.getHours() && new Date().getMinutes() == times.sunset.getMinutes();//exactly at sunset

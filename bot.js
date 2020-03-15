@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-//const suncalc = require('suncalc');
+const suncalc = require('suncalc');
 
 client.on('ready', () => {
     console.log('I am ready!');

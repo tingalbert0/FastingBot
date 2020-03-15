@@ -1,12 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const suncalc = require('suncalc');
+//const suncalc = require('suncalc');
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
 
 client.on('message', message => {
+    /*
     var times = SunCalc.getTimes(new Date(), 33.7940, -84.3889);
     var sunset = times.sunset.getHours() + ':' + times.sunset.getMinutes();
     var isDinnerTime = new Date().getHours() == times.sunset.getHours() && new Date().getMinutes() == times.sunset.getMinutes();//exactly at sunset
@@ -41,6 +42,7 @@ client.on('message', message => {
 	    message.reply('No <:PepeHands:685227664776101912>');
 	}
     }
+    */
     if (message.content === 'ping') {
 	    message.reply('pong');
     }

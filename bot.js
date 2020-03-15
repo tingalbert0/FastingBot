@@ -42,7 +42,12 @@ client.on('message', message => {
 	    message.reply('No <:PepeHands:685227664776101912>');
 	}
     }
-    
+    if (message.content === 'when can i eat') {
+	if (EatingTime) {
+	    message.send('Now <:hypers:650866330005798912>');
+	} else {
+	    message.send(sunset);
+    }
     if (message.content === 'ping') {
 	    message.reply('pong');
     }

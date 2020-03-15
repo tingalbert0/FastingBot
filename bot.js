@@ -4,8 +4,10 @@ const SunCalc = require('suncalc');
 
 client.on('ready', () => {
     console.log('I am ready!');
-    var channel = client.channels.get("650183260856516611");
+    /*
+    var channel = client.channels.get('650183260856516611');
     channel.send('sup bitch');
+    */
 });
 
 client.on('message', message => {

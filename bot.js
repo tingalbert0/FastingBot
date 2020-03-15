@@ -47,9 +47,9 @@ client.on('message', message => {
     }
     if (message.content === 'when can i eat') {
 	if (EatingTime) {
-	    message.send('Now <:hypers:650866330005798912>');
+	    message.reply('Now <:hypers:650866330005798912>');
 	} else {
-	    message.send(sunset);
+	    message.reply(sunset);
     }
     if (message.content === 'ping') {
 	    message.reply('pong');
